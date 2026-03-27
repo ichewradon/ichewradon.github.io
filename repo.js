@@ -41,14 +41,7 @@ async function loadRepos() {
   // 🔥 sort by recent activity
   repos.sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
 
-  // ⭐ most active repo
-  const mostActive = repos[0];
-
-  document.getElementById("most-active").innerHTML =
-    `🔥 Most recently active: <a href="${mostActive.html_url}" target="_blank">${mostActive.name}</a>
-     (updated ${timeAgo(mostActive.pushed_at)})`;
-
-  // ⭐ top 6 repos
+  // ⭐ take top 6
   const topRepos = repos.slice(0, 6);
 
   const container = document.getElementById("repo-container");
