@@ -107,6 +107,7 @@ body {
     grid-row: 2 / span 2;
     position: relative;
     overflow-y: scroll;
+    padding: 0;
 }
 
 .item-4 {
@@ -133,6 +134,7 @@ body {
   padding-bottom: 5px;
   transition: 0.2s;
   border: 1px solid #274702;
+  margin: 20px;
 }
 
 .repo-card a {
