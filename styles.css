@@ -130,6 +130,7 @@ body {
 .repo-card {
   border-radius: 5px;
   padding: 15px;
+  padding-bottom: 5px;
   transition: 0.2s;
   border: 1px solid #274702;
 }
