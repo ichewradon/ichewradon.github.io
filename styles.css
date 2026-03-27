@@ -131,14 +131,13 @@ body {
 .repo-card {
   border-radius: 5px;
   padding: 15px;
-  padding-bottom: 5px;
   transition: 0.2s;
   border: 1px solid #274702;
   margin: 20px;
 }
 
 .repo-card a {
-  color: #58a6ff;
+  color: #83ec06;
   text-decoration: none;
   font-weight: bold;
 }
@@ -146,7 +145,7 @@ body {
 .repo-meta {
   font-size: 0.85em;
   margin-top: 8px;
-  color: #8b949e;
+  color: #83ec06;
 }
 
 .language {
@@ -161,7 +160,7 @@ body {
 .highlight {
   margin-bottom: 20px;
   padding: 15px;
-  background: #1f6feb;
+  background: #83ec06;
   border-radius: 10px;
   font-weight: bold;
 }
